@@ -1,0 +1,519 @@
+header{
+    background-color: var(--body);
+
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 20px 50px;
+}
+
+.menu{
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--text);
+}
+
+.euDados{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 20px 0;
+
+    color: var(--text);
+    background-color: var(--body);
+}
+
+.eu{
+    background-color: #FFFFFF;
+    width: 200px;
+    border-radius: 500px;
+}
+
+.eu > img{
+    width: 200px;
+}
+
+.dadosPessoais{
+    width: 100%;
+    min-height: 50vh;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    overflow-y: hidden;
+}
+
+.blocoUm{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    flex-direction: column;
+
+    width: 80%;
+}
+
+.nomeGithub{
+    width: 100%;
+
+    font-size: 35px;
+}
+
+.linhaUm{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 20px;
+
+    width: 100%;
+}
+
+.envMsg{
+    background-color: var(--turquesaEscura);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.btnEnvMsg{
+    color: black;
+
+    font-weight: 700;
+}
+
+.iconeFollow{
+    padding: 12px;
+    border-radius: 10px;
+    
+    background-color: var(--turquesaEscura);
+
+    cursor: pointer;
+}
+
+.userFollow{
+    font-size: 15px;
+
+    color: black;
+}
+
+
+.quantProjetos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 30px 0;
+    
+    width: 80%;
+}
+
+p{
+    font-size: 18px;
+}
+
+.funcao{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    margin: 10px 0;
+
+    font-size: 24px;
+}
+
+.linksRedesSociais{
+    margin: 30px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backgroundIconRedesSociais{
+    background-color: var(--turquesaEscura);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 500px;
+}
+
+.icon{
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+}
+
+.textoLink{
+    font-size: 14px;
+}
+
+.sobreMim{
+    display: flex;
+    flex-direction: column;
+}
+
+.textoSobreMim{
+    margin: 10px 20px;
+}
+
+
+
+.onda-image{
+    min-width: 100vw;
+}
+
+
+.onda{
+    background-color: var(--turquesaEscura);
+}
+
+
+
+
+.publicacoes{
+    min-height: 100vh;
+    width: 100%;
+
+    background-color: var(--turquesaEscura);
+}
+
+.topicos{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topicos div{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: var(--turquesaEscura);
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;    
+  }
+  
+.topicos div:hover,
+.topicos div:hover .link {
+    background-color: #007577;    
+}
+  
+
+.link{
+    margin-right: 20px;
+    border: none;    
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    background-color: var(--turquesaEscura);
+    cursor: pointer;
+}
+
+
+
+.titulo{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.gridProjetos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.publicacaoInst > a{
+    overflow-y: hidden;
+}
+
+.projeto{
+    width: 200px;
+    height: 100px;
+
+    margin: 30px;
+
+    cursor: pointer;
+}
+
+.projeto:hover{
+    animation: rotate-90 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.publicacaoInst{
+    width: 300px;
+
+    margin: 30px;
+    padding: 30px;
+}
+
+.displayProjetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayHabilidades{
+    display: none;
+    flex-direction: column;
+} 
+
+.habilidade{
+    width: 400px;
+    height: 400px;
+
+    background-color: var(--verdeMarClaro);
+
+    margin: 30px;
+}
+
+.colunasFerramentas, .colunasHabilidades{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.titulo > p{
+    font-size: 22px;
+}
+
+.container{
+    width: 130px;
+    min-height: 50px;
+    background-color: var(--verdeMarClaro);
+
+    font-size: 18px;
+    color: #FFFFFF;
+
+    margin: 60px;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 1s;
+}
+
+.container:hover{
+    transform: scale(1.2);
+}
+
+.vercel, .insomnia, .vscode, .iconGithub, .virtualbox, .heroku, .canva, .bootstrap, .csharp, .dotnet, .mysql, .html, .css, .js, .python, .sqlserver{
+    width: 30px;
+    height: 30px;
+
+    margin-right: 10px;
+}
+
+.btnProjeto{
+    font-size: 24px;
+    color: black;
+}
+
+
+@keyframes rotate-90{
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(15deg);
+    }
+}
+
+/* ANIMAÇÃO */
+[data-anime] {
+    opacity: 0;
+    transition: .8s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="leftDados"] {
+    transform: translate3d(-50px, 0, 0);
+    transition: 3s;
+}
+
+[data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="bottom"] {
+    transform: translate3d(0, 50px, 0);
+}
+
+[data-anime="bottomDados"] {
+    transform: translate3d(0, 50px, 0);
+    transition: 3s;
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+@media(min-width: 600px) {
+    .euDados{
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 40px 60px 0 60px;
+    }
+
+    .eu{
+        width: 100px;
+    }
+
+    .eu > img{
+        width: 100px;
+    }
+
+    .dadosPessoais{
+        width: 60%;
+        min-height: 50vh;
+    
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    
+        overflow-y: hidden;
+    }
+
+    .linhaUm{
+        margin-top: 0px;
+    }
+
+    .linksRedesSociais{
+        justify-content: space-between;
+    }
+
+    .textoSobreMim{
+        margin: 10px 0;
+    }
+    
+    .hobbiesStories{    
+        grid-template-columns: repeat(6, 6fr);
+    }
+
+    .link{
+        font-size: 24px;
+    }    
+    
+    .publicacaoInst{
+        width: 400px;
+    
+        margin: 30px;
+        padding: 30px;
+    }
+
+    .projeto{
+        width: 300px;
+        height: 200px;
+    
+        margin: 30px;
+    }
+
+    .colunasFerramentas, .colunasHabilidades{    
+        flex-direction: row;
+    }
+    
+}
+
+@media(min-width: 700px) {
+    .eu{
+        width: 200px;
+    }
+    
+    .eu > img{
+        width: 200px;
+    }
+
+    .articleStories{
+        margin: 30px;
+    }    
+    
+    .gridProjetos{
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .publicacaoInst{
+        width: 300px;
+    }
+
+    .projeto{
+        width: 200px;
+        height: 100px;
+    
+        margin: 10px;
+    }    
+}
+
+@media(min-width: 1200px) {
+
+    .nomeGithub{
+        width: 30%;
+    }    
+    
+    .blocoUm{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .linhaUm{
+        width: 45%;
+        margin-left:10cm;
+    }
+
+    .linksRedesSociais{
+        width: 30%;
+    }    
+
+    .gridProjetos{
+        grid-template-columns: repeat(3, 3fr);
+    }
+
+    .projeto{
+        width: 300px;
+        height: 200px;
+    
+        margin: 30px;
+    }
+
+    .publicacaoInst{
+        width: 400px;
+    }
+
+    .displayHabilidades{
+        justify-content: center;
+        flex-direction: row;
+    } 
+}

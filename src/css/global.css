@@ -1,0 +1,35 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Josefin+Slab:wght@100;200;300;400;700&display=swap');
+
+:root {
+    --montserrat: 'Montserrat', sans-serif;
+    --josefinSlab: 'Josefin Slab', serif;
+}
+
+h1, h2, h3{
+    font-family: var(--montserrat);
+    color: var(--text);
+}
+
+p, h4, h6, a, button{
+    font-family: var(--montserrat);
+}
+
+body{
+    --turquesaEscura: #00ced1;
+    
+    --verdeMarClaro: #20b2aa;
+    --azulFraco: #00a6ff;    
+}
+
+body[data-tema='light']{
+    --body: #DFF3FE;
+    --text: #000000;
+    --icon: #EFB7B7;
+}
+
+body[data-tema='dark']{
+    --body: #000000;
+    --text: #EEEEEE;
+    --icon: #BD4B4B;
+}
